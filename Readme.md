@@ -1,6 +1,9 @@
 # HW repository for the Croco Cartridges
 The files come as is. I used them to order the cartridges, but while ordering yourself you should of course check yourself if everything is correct.
 
+## Revisions
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each board revision.
+
 ## License
 CERN Open Hardware Licence Version 2 - Permissive
 

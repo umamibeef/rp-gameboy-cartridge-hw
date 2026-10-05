@@ -68,166 +68,6 @@
 	)
 	(attr smd exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -2.5 -3.023782)
-		(end -1.198046 -3.023782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "16b2512f-cc1f-40fc-9cc0-1b6e6b8d63fc")
-	)
-	(fp_line
-		(start -2.5 2.976218)
-		(end -1.798046 2.976218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "8e09c31f-1730-466d-a45c-beb51811b05d")
-	)
-	(fp_line
-		(start -1.798046 2.976218)
-		(end -1.798046 -1.423782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "dd7f47f7-8010-4650-a3e9-1613125e34ad")
-	)
-	(fp_line
-		(start -1.798046 2.976218)
-		(end -0.598046 2.976218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "f84cffa1-c819-495d-9933-ac992beba89f")
-	)
-	(fp_line
-		(start -1.198046 -3.023782)
-		(end -1.198046 1.876218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "54754299-f5cd-4dbf-afbc-68f63e636375")
-	)
-	(fp_line
-		(start -1.198046 -3.023782)
-		(end 0.001954 -3.023782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "f8c7983c-3e3d-4f5d-b053-488d1956c9df")
-	)
-	(fp_line
-		(start -0.598046 2.976218)
-		(end -0.598046 -2.323782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "010beeda-ee8d-4973-aaea-e1eb2b0227ae")
-	)
-	(fp_line
-		(start -0.598046 2.976218)
-		(end 0.601954 2.976218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "230d740e-404a-45d5-9c5e-216da82e14c9")
-	)
-	(fp_line
-		(start 0.001954 -3.023782)
-		(end 0.001954 2.376218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "c154f651-698c-4d7d-b6e2-07c18cf02abc")
-	)
-	(fp_line
-		(start 0.001954 -3.023782)
-		(end 1.201954 -3.023782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "3d5961d7-2e9e-4a3d-9a04-88a52fdd508c")
-	)
-	(fp_line
-		(start 0.601954 2.976218)
-		(end 0.601954 -2.323782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "019ac77a-a1c3-45e1-93fc-5cb5607b51c8")
-	)
-	(fp_line
-		(start 0.601954 2.976218)
-		(end 1.801954 2.976218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "4c13b462-835c-40b6-9c08-6da80423b835")
-	)
-	(fp_line
-		(start 1.201954 -3.023782)
-		(end 1.201954 1.876218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "00c087f9-e8f1-405b-8d87-67f4f863c0fd")
-	)
-	(fp_line
-		(start 1.201954 -3.023782)
-		(end 2.5 -3.023782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "b8259c00-111b-474a-ad80-8297a5495cd5")
-	)
-	(fp_line
-		(start 1.8 2.976218)
-		(end 2.5 2.976218)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "bcbb2034-e848-4861-ad6a-90a491ced28b")
-	)
-	(fp_line
-		(start 1.801954 2.976218)
-		(end 1.801954 -1.423782)
-		(stroke
-			(width 0.35)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "1af1825b-aa7a-4b65-92bc-88227a5bb46e")
-	)
-	(fp_line
 		(start -1.798046 -1.423782)
 		(end -1.798046 1.376218)
 		(stroke
@@ -436,6 +276,110 @@
 		(thermal_bridge_angle 0)
 		(uuid "55a8c4ff-17a8-4906-a8cd-3caf41f710b1")
 	)
+	(pad "1" smd custom
+		(at -2.5 -3.02378)
+		(size 0.35 0.35)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+				(gr_line
+					(start 0 0)
+					(end 1.30195 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 1.30195 0)
+					(end 1.30195 4.9)
+					(width 0.35)
+				)
+				(gr_line
+					(start 1.30195 0)
+					(end 2.50195 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 2.50195 0)
+					(end 2.50195 5.4)
+					(width 0.35)
+				)
+				(gr_line
+					(start 2.50195 0)
+					(end 3.70195 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 3.70195 0)
+					(end 3.70195 4.9)
+					(width 0.35)
+				)
+				(gr_line
+					(start 3.70195 0)
+					(end 5 0)
+					(width 0.35)
+				)
+		)
+		(uuid "270c3142-0b79-4326-84ad-b3cfa9abe695")
+	)
+	(pad "2" smd custom
+		(at -2.5 2.97622)
+		(size 0.35 0.35)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+				(gr_line
+					(start 0 0)
+					(end 0.701954 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 0.701954 0)
+					(end 0.701954 -4.4)
+					(width 0.35)
+				)
+				(gr_line
+					(start 0.701954 0)
+					(end 1.90195 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 1.90195 0)
+					(end 1.90195 -5.3)
+					(width 0.35)
+				)
+				(gr_line
+					(start 1.90195 0)
+					(end 3.10195 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 3.10195 0)
+					(end 3.10195 -5.3)
+					(width 0.35)
+				)
+				(gr_line
+					(start 3.10195 0)
+					(end 4.30195 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 4.3 0)
+					(end 5 0)
+					(width 0.35)
+				)
+				(gr_line
+					(start 4.30195 0)
+					(end 4.30195 -4.4)
+					(width 0.35)
+				)
+		)
+		(uuid "e5db337a-ade2-474f-8064-8f6f10e94b5e")
+	)
 	(zone
 		(net 0)
 		(net_name "")
@@ -562,7 +506,7 @@
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)

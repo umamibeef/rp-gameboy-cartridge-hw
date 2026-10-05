@@ -1,9 +1,14 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ec16e1da-c950-4911-941a-a1ab0200cc01")
 	(paper "A3")
+	(title_block
+		(title "Croco Cartridge")
+		(date "10/2026")
+		(rev "${VERSION}")
+	)
 	(lib_symbols)
 	(sheet
 		(at 54.61 57.15)
@@ -18,11 +23,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b615a724-4227-4bd0-80d9-62bf83e996a3")
 		(property "Sheetname" "CPU"
 			(at 54.61 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +39,8 @@
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
 			(at 54.61 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +49,7 @@
 			)
 		)
 		(instances
-			(project "GameboyCartridgeV2.1"
+			(project "GameboyCartridgeV2"
 				(path "/ec16e1da-c950-4911-941a-a1ab0200cc01"
 					(page "2")
 				)
@@ -60,11 +69,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "eaa45bde-2806-4cbd-94b7-5dcef58f4236")
 		(property "Sheetname" "Power_GBBus"
 			(at 167.64 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +85,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 167.64 105.9946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +95,7 @@
 			)
 		)
 		(instances
-			(project "GameboyCartridgeV2.1"
+			(project "GameboyCartridgeV2"
 				(path "/ec16e1da-c950-4911-941a-a1ab0200cc01"
 					(page "3")
 				)
